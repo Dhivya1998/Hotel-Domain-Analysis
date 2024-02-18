@@ -28,6 +28,23 @@ In this project, I followed a systematic approach to extract meaningful insights
 
 This systematic journey supports data-driven decision-making.
 
+## Dataset Overview
+
+1. **dim_date:**
+   - Columns: date, mmm yy, week no, data_type
+
+2. **dim_hotels:**
+   - Columns: property_id, property_name, category, city
+
+3. **dim_rooms:**
+   - Columns: room_id, room_class
+
+4. **fact_aggregated_bookings:**
+   - Columns: property_id, check_in_date, room_category, successful_bookings, capacity
+
+5. **fact_bookings:**
+   - Columns: booking_id, property_id, booking_date, check_in_date, check_out_date, no_guests, room_category, booking_platform, ratings_given, booking_status, revenue_generated, revenue_realized
+
 ### Key Learnings
 
 - Mastered Python Basics.
